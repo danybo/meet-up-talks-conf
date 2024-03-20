@@ -1,0 +1,241 @@
+*13 mars 2024 | Les Salles du Carrousel*
+
+*Microsoft AI Tour*
+
+[Microsoft AI Tour](https://www.microsoft.com/en-us/msaitour/paristour)
+
+[Programme](https://www.microsoft.com/en-us/msaITour/paris)
+
+*Key note* : Vision de Microsoft sur les IA, Copilotes, Azure Platform etc.
+
+image::images/image1.jpeg[Programme Image]
+
+Démonstration sur l'utilisation de Github Copilot sur un cas spécifique.
+
+Comment choisir des modèles et les adapter dans un environnement de test ?
+
+Application de filtres et adaptation.
+
+Exemple de startup utilisant les technos IA Microsoft:
+
+_Renan Riochet, CTO fondateur de Millvue_ : Utilisation d'images et détection de pathologies
+
+-- -- -- -- -- --
+
+*[.underline]#Breakout Session#*
+
+*[.underline]#What's New in Generative AI?#*
+
+*Par Yohan Lasorsa, Senior Cloud Advocate, Microsoft*
+
+Ubiquity +
+Multimodality +
+Autonomy
+
+image::images/image2.jpeg[Generative AI Image]
+
+Dall-e 3
+
+Turbo
+
+--
+
+Adopt : Copilote pour Dynamics Bing Windows Microsoft MS
+
+Extend : comme pour aider à coder
+
+Build your own
+
+Azure AI Studio
+
+Vous pouvez sélectionner des modèles
+
+Adapter votre prompt
+
+image::images/image3.jpeg[Azure AI Studio Image]
+
+Utilisation d'autres entrées comme des images
+
+Accédez au playground d'Azure Studio.
+
+image::images/image4.jpeg[Azure Studio Playground Image 1]
+image::images/image5.jpeg[Azure Studio Playground Image 2]
+
+Reconnaissance vocale avec un avatar
+
+Créer une voix personnalisée
+
+image::images/image6.jpeg[Avatar Voice Image]
+
+*#LangChain4J: Use the power of LLMs in Java! +
+By Java Champion +
+Julio Dubois* +
+
+*[.underline]#Demo with Java code +
+Integrated call with OpenAI#*
+
+Complet mais ne fonctionne pas localement
+
+Avec MistralAi, l'exécution en local était plus rapide mais moins exhaustive
+
+Langchain aide avec les vecteurs de base
+
+Transformer le texte en embedding
+
+Stocker dans la base de données +
+- store in data base
+
+Lien du code +
+[GitHub Link](https://github.com/jdubois/2024-LangChain4J-demo)
+
+Video explicative +
+[YouTube Link](https://www.youtube.com/watch?v=x8kkjmCZTaw&ab_channel=MicrosoftforJavaDevelopers)
+
+image::images/image7.jpeg[LangChain4J Image 1]
+image::images/image8.jpeg[LangChain4J Image 2]
+
+*NVIDIA tools developers need to build and deploy Generative AI +
+ +
+Breakout +
+Nicolas Savides* +
+ +
+Nvidia Nemo framework +
+On Cloud and on prem +
+ +
+Nemotron own model from Nvidia +
+ +
+Not only chips but also platform +
+ +
+LLM Assistant for Chip Design +
+ChipNemo is an AI Copilot built by Nvidia +
+Compare ChipNemo specialized to another +
+ +
+- Data curation cause it is your fuel +
+ +
+When you train you need to adapt +
+ +
+Coming as an API by working with Microsoft +
+ +
+Nvidia use Llama and others community models to be focused on others
+tasks that nobody is doing
+
+image::images/image9.jpeg[NVIDIA Tools Image 1]
+image::images/image10.jpeg[NVIDIA Tools Image 2]
+image::images/image11.jpeg[NVIDIA Tools Image 3]
+image::images/image12.jpeg[NVIDIA Tools Image 4]
+image::images/image13.jpeg[NVIDIA Tools Image 5]
+image::images/image14.jpeg[NVIDIA Tools Image 6]
+image::images/image15.jpeg[NVIDIA Tools Image 7]
+image::images/image16.jpeg[NVIDIA Tools Image 8]
+
+*Pragmatic techniques to get the most out of GitHub Copilot +
+ +
+By Julien Dubois* +
+ +
+Vs studio extension +
+ +
+[VS Studio Extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot&WT.mc_id=academic-116350-abartolo) +
+ +
+- Value not in repetitive code +
+ +
+GitHub Copilot Chat +
+Based on GPT but trained specifically for Coding +
+ +
+Demo on how it could help scan bad code +
+ +
+Using code space to go fast +
+ +
+In natural language you can ask how the code work +
+Find new ways to add endpoint +
+ +
+In the prompt you can chat and exchange on everything. +
+ +
+--- +
+It can help create image +
+And enhance CI CD +
+ +
+[Copilot Workshop](https://learn.microsoft.com/en-gb/training/paths/copilot/?WT.mc_id=academic-116350-abartolo)
+
+image::images/image17.jpeg[GitHub Copilot Image 1]
+image::images/image18.jpeg[GitHub Copilot Image 2]
+
+*Learn how to interact with OpenAI models using prompt Engineering +
+By Laurent Bugnion*
+
+Genesis of Artificial Intelligence
+
+How far we have come 
+
+ 
+
+* {blank}
++
+____
+Under the hood
+____
+
+____
+How it is about predictiong the next word/token
+
+If you ask twice, you can have 2 diffentents results depending on
+probabilities
+____
+
+---
+
+image::images/image19.jpeg[OpenAI Interaction Image 1]
+
+Zero-shot-prompting
+
+No clues and ask for a result
+
+ 
+
+Few shot prompting
+
+Give some context and ask something
+
+ 
+
+Context window
+
+--
+
+User prompt: what you see
+
+Symtem prompt: meta prompt
+
+ 
+
+Generally speaking there is no
+
+Most of the time you don't need fine-tuning
+
+--
+
+Personal opinion:
+
+A real copilot you are still in charge and have to check
+
+ 
+
+For beginner coder, it's better to learn first then use Copilots etc
+
+[OpenAI Workshop Setup](https://microsoft.github.io/Workshop-Interact-with-OpenAI-models/setup/)
+
+image::images/image20.jpeg[OpenAI Interaction Image 2]
+image::images/image21.jpeg[OpenAI Interaction Image 3]
+
+image::images/image22.jpeg[OpenAI Interaction Image 4]
+image::images/image23.jpeg[OpenAI Interaction Image 5]
+
+Take away of the Tour:
+
+Indeed, it's fascinating to witness the multitude of conferences and the
+deep involvement of Microsoft in the AI ecosystem, leveraging
+partnerships with companies like Nvidia and, notably, OpenAI. This
+comprehensive engagement underscores Microsoft's commitment to advancing
+AI technologies and their applications across various domains and
+industries. These collaborations not only enhance the capabilities of
+Microsoft's offerings but also contribute to the broader advancement and
+accessibility of AI solutions worldwide.
